@@ -76,7 +76,7 @@ const List = () => {
                     {product.map((item)=>(
                         <div className="col-lg-4" key={item.id}>
                             <div className="card">
-                                <img src={item.img} alt="" width={100}></img>
+                                <img src={item.img} alt="product" width={100}></img>
                                 <div className="card-body">
                                     <h4>{item.title}</h4>
                                     <h6>₹{item.price}</h6>
